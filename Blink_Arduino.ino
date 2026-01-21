@@ -35,10 +35,3 @@ void loop() {
   digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
   delay(1000);                      // wait for a second
 }
-
-// Comment about the changes I made
-// LOL I added code for a motor to this LED control code. Hi Carlos!
-const int PWMB = 10; //speed control pin on the motor driver for the left motor
-const int BIN2 = 9; //control pin 2 on the motor driver for the left motor
-const int BIN1 = 8; //control pin 1 on the motor driver for the left motor
-
